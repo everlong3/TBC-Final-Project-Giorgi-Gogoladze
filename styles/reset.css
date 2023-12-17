@@ -58,49 +58,59 @@ a{
 /*---------------------------------------------- @Media ------------------------------------------------------ */
 
 
-@media  (min-width: 700px) and (max-width:1000px) {
+@media screen and (min-width: 700px) and (max-width:1000px) {
       carousel{
 		width: 500px;
 	  }
 }
 
-@media  (min-width: 200px) and (max-width: 699px) {
+@media screen and (min-width: 200px) and (max-width: 699px) {
 	carousel{
 	  width: 300px;
 	}
 }
 
-@media  (min-width: 700px) and (max-width:1000px){
+@media screen and (min-width: 700px) and (max-width:1000px){
 	h1,h2,h3,h4,h5,p{
       font-size: 36px;
 	}
 	
 }
 
-@media  (min-width: 300px) and (max-width:699px){
+@media screen and (min-width: 300px) and (max-width:699px){
 	h1,h2,h3,h4,h5,p{
       font-size: 26px;
 	}
 	
 }
 
-@media  (min-width: 30px) and (max-width:299px){
+@media screen and (min-width: 30px) and (max-width:299px){
 	h1,h2,h3,h4,h5,p{
-      font-size: 6px;
+      font-size: 10px;
 	}
 	
 }
 
 
 
-@media (max-width: 1000px) {
-    header .container .fa-bars {
+@media screen and (max-width: 1000px) {
+    header .my-container .fa-bars {
       display: inline-block;
     }
   }
 
-  @media (max-width: 1000px) {
-    header .container nav {
+  @media screen and (max-width: 1000px) {
+    header .my-container nav {
       display: none;
     }
 } 
+
+
+@media screen and (min-width: 1000px) and (max-Width: 2000px){
+	.carousel{
+	 width: 850px;
+	 height: 534px;
+	 margin:  0  auto;
+	}  
+   
+}

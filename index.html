@@ -1,136 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,900;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,900;1,600&family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <title>Games-X-Zone</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,900;1,600&display=swap"rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,900;1,600&family=Rubik:wght@500&display=swap"rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Games-X-Zone</title>
 </head>
-<body style="background-color: black;">
+
+<body>
 
 
-<!-------------------------------------------------------------------- header start  ------------------------------------------------------------------------------------------------->
-<header>
-<div class="header-div">
+  <!-------------------------------------------------------------------- header start  ------------------------------------------------------------------------------------------------->
+  <header>
+    <div class="header-div">
 
+      <div class="first-header-div">
 
-  <a href="https://www.tbceducation.ge/">
-     <div class="logo-div">
-        <img class="logo-img" src="./icon-images/თიბისი.png">
-    </div>
-  </a>
-   
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Images/rdr2.jpg" class="d-block w-100 " id="rdr2" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./Images/a02dedc2951805894a687ea21c68c46d.jpg" id="gta-img" class="d-block w-100 " alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./Images/re2.jpg" id="img-re2" class="d-block w-100 " alt="...">
-          </div>
+        <div class="logo-div">
+          <a href="https://www.tbceducation.ge/">
+            <img class="logo-img" src="./icon-images/თიბისი.png" />
+          </a>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <div class="serch-div">
+          <input name="search" id="search" cols="40" rows="3" placeholder="ძებნა..."></input>
+        </div>
+
+
+        <div class="header-icon-div">
+          <a href="#"><i class="fa-solid fa-house"></i></a>
+          <a href="contact.html"><i class="fa-solid fa-user"></i></a>
+          <a href="#"> <i class="fa-solid fa-download"></i></a>
+          <a href="https://store.steampowered.com/"> <i class="fa-solid fa-gamepad"></i></a>
+        </div>
+
       </div>
 
+      <div class="second-header-div">
+        <div class="link-div">
+          <div>
+            <b><a style="color: blueviolet" href="#">მთავარი</a></b>
+          </div>
+          <div>
+            <b><a href="news.html">სიახლეები</a></b>
+          </div>
+          <div>
+            <b><a href="contact.html">საკონტაქტო</a></b>
+          </div>
+        </div>
+      </div>
 
-      <div class="section-div">
+    </div>
+  </header>
+  <!-----------------------------------------------------------------header end ------------------------------------------------------------------------------------------------>
 
-       <div>   <b><a style="color: blueviolet;" href="#">მთავარი</a></b> </div>
-       <div> <b><a href="news.html">სიახლეები</a></b>  </div>
-       <div> <b><a href="contact.html">საკონტაქტო</a></b> </div>
+  <!----------------------------------------------------------section start ------------------------------------------------------------------------------------------------>
+  <section>
+    <div class="my-container ">
+      <div class="carousel-div">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Images/rdr2.jpg" class="d-block w-100" id="rdr2-img" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/a02dedc2951805894a687ea21c68c46d.jpg" id="gta-img" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/re2.jpg" id="img-re2" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="min-newsdiv">
+        <div class="title-div">
+          <h3 style="color: #33f">ვიხილავთ მალე</h3>
+        </div>
+
+        <div class="news-img-div">
+          <div class="news-img">
+            <img src="./Images/grand-theft-auto-vi-4k-2r.jpg" />
+          </div>
+
+          <div class="news-img">
+            <img src="./Images/S2HoS_GSCGameWorld_keyart_JPG-698bead53e54e0fb400c.jpg" />
+          </div>
+
+          <div class="news-img">
+            <img src="./Images/1183767.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mid-section-div">
+        <div class="mid-section-text1">
+          <h1 style="color: blue">Games-X-Zone</h1>
+        </div>
+
+        <div class="mid-section-text2">
+          <h6 style="color: #33f">ვთამაშობთ სიამოვნებისთვის</h6>
+        </div>
+
+        <div class="mid-section-text3">
+          <h1 style="color: aqua; font-family: 'Courier New', Courier, monospace;">
+            იფიქრე, შეიგრძენი, ითამაშე
+          </h1>
+        </div>
+      </div>
+
+    <div class="released-games">
+       
+        <div class="like-games-tittle mt-5">
+             <h3>ასევე შეიძლება დაგაინტერესოთ</h3>
+        </div>
+
+        <div class="container-fluid mt-5">
+
+          <div class="row h-100 ">
+     
+          <div class="col-4 ml-3" id="title-col">
+            <img src="./Images/710281.jpg">
+          </div>
+     
+          <div class="col-4 ml-3" id="title-col">
+            <img src="./Images/thumb-1920-1057560.jpg">
+          </div>
+     
+          <div class="col-4 ml-3" id="title-col">
+            <img src="./Images/thumb-1920-920991.jpg">
+          </div>
+
+          </div>
+        </div>
+        
+        <div class="container-fluid mt-5 ">
+           
+         <div class="row h-100">
+
+         <div class="col-4">
+          <img src="./Images/887499.jpg">
+         </div>
+
+         <div class="col-4">
+          <img src="./Images/call-of-duty-ghost-call-of-duty-black-ops-wallpaper-preview.jpg">
+         </div>
+
+         <div class="col-4">
+          <img src="./Images/1331502.jpg">
+         </div>
+
+         </div>
+
+        </div>
+     
+      
+    </div>
+
+    </div>
+     
+  </section>
+  <!-------------------------------------------------------------section end   ------------------------------------------------------------------------------------------------------------------->
+
+  <!------------------------------------------------------------footer start ------------------------------------------------------------------------------------------------------------------>
+  <footer>
+    <div class="back-div">
+     <i class="fa-solid fa-chevron-up"></i>
 
 
+     <div class="backup-div">
+      <a href="#">
+         <h1>მაღლა დაბრუნება</h1>
+      </a>
+     
+     </div>
+
+    </div>
     
+
+  <div class="container-fluid h-100 bg-secondary ">
       
-      
-      </div>
+    <div class="row h-100">
+     
+     <div class="col-5 ml-3 mt-5 mb-5" id="title-col">
+           <h1>Games-X-Zone</h1>
+     </div>
 
- </div>
- 
-</header>
-<!-----------------------------------------------------------------header end ------------------------------------------------------------------------------------------------>
+     <div id="help-div" class="col-3 ml-3 mt-5 mb-5" id="title-col">
+      <a href="contact.html"><h3>დახმარება</h3></a>
+      <a href="contact.html"><h3>ჩვენ შესახებ</h3></a>
+      <a href="contact.html"> <h3>კონტაქტი</h3></a>
+     </div>
 
-
-
-
-<!----------------------------------------------------------section start ------------------------------------------------------------------------------------------------>
-<section>
-
-  <div class="container">
-    
-    <div class="min-newsdiv">
-
-      <div class="title-div">
-        <h3 style="color: #33f;">ვიხილავთ მალე</h3>
-      </div>
-
-      <div class="news-img-div">
-
-       
-        <div class="news-img">
-          <img src="./Images/grand-theft-auto-vi-4k-2r.jpg" >
-        </div>
-
-       
-        <div class="news-img">
-          <img style="margin-left: 37%;" src="./Images/S2HoS_GSCGameWorld_keyart_JPG-698bead53e54e0fb400c.jpg" >
-        </div>
-       
-        <div class="news-img">
-          <img style="margin-left: 75%;" src="./Images/1183767.jpg" >
-        </div>
-
-      </div>
+     <div id="footer-logo-div" class="col-3 ml-3 mt-5 mb-5" id="title-col">
+      <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/?lang=en"> <i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+     
 
     </div>
 
-    <div class="mid-section-div">
-      
-       <div class="mid-section-text1">
-        <h1 style="color: blue;">Games-X-Zone</h1>
-       </div>
-
-       <div class="mid-section-text2">
-        <h6 style="color: #33f;">ვთამაშობთ სიამოვნებისთვის</h6>
-       </div>
-
-       <div class="mid-section-text3">
-        <h1 style="color: aqua; font-family: 'Courier New', Courier, monospace;">იფიქრე, შეიგრძენი, ითამაშე</h1>
-       </div>
-
-    </div>
-
-    <div></div>
 
   </div>
 
+  </footer>
+  <!-------------------------------------------------------------footer end  ------------------------------------------------------------------------------------------->
 
-</section>
-<!-------------------------------------------------------------section end   ------------------------------------------------------------------------------------------------------------------->
-
-
-<!------------------------------------------------------------footer start ------------------------------------------------------------------------------------------------------------------>
-<footer>
-
-</footer>
-<!-------------------------------------------------------------footer end  ------------------------------------------------------------------------------------------->
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
