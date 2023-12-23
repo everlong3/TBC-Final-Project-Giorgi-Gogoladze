@@ -1,10 +1,9 @@
-/* !-----------------------------------------------------  header start  -----------------------------------------------------------------------------------*/ 
-.header-div{
+/* !-----------------------------------------------------  header start  -----------------------------------------------------------------------------------*/
+.header-div {
   width: 100%;
-  
 }
 
-.first-header-div{
+.first-header-div {
   width: 100%;
   height: 130px;
   background-color: darkblue;
@@ -12,7 +11,7 @@
   justify-content: space-around;
 }
 
-.logo-div{
+.logo-div {
   height: 40%;
   width: 5%;
   display: flex;
@@ -21,26 +20,32 @@
   /* border: 2px solid violet; */
 }
 
-.logo-img{
-margin-top: 30%;
- min-height: 5px;
- max-height: 60px;
+.logo-img {
+  margin-top: 30%;
+  min-height: 5px;
+  max-height: 60px;
 }
 
-.serch-div{
-  width: 25%;
+.serch-div {
+  width: 45%;
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.first-header-div input{
-  width:100%;
-  height: 20%;
+.serch-div i{
+  font-size: 150%;
+  color: black;
 }
 
-.header-icon-div{
+.first-header-div input {
+  width: 100%;
+  height: 30%;
+  border: 4px solid black;
+}
+
+.header-icon-div {
   width: 15%;
   height: 100%;
   justify-content: center;
@@ -53,89 +58,73 @@ margin-top: 30%;
   margin-left: 5%;
 }
 
-
-.second-header-div{
+.second-header-div {
   background-color: cyan;
   justify-content: center;
   display: flex;
   align-items: center;
 }
 
-.link-div{
+.link-div {
   justify-content: space-between;
-    display: flex;
-    width: 27%;
- }
- 
- .link-div div{
+  display: flex;
+  width: 77%;
+}
+
+.link-div div {
   margin-left: 10%;
- }
- 
- .link-div a{
+}
+
+.link-div a {
   font-family: Relief, sans-serif;
   font-size: 150%;
   text-decoration: none;
- }
-
-
-
-
+}
 
 /*!------------------------------------------------------ header-end --------------------------------------------------------------------------------------------------- */
 
-
-
-
-
-
 /*------------------------------------------------------- section start ----------------------------------------------------------------------------------------------------*/
 
-
-.my-container{
+.my-container {
   background: url("../Images/nightlife-momentum-hc-3840x2400.jpg");
   width: 100%;
   height: 100%;
   margin: 0 auto;
   padding-bottom: 10%;
- }
+}
 
 /*  content 1 start */
-.carousel-div{
+.carousel-div {
   width: 100%;
   height: 600px;
   /* border: 2px solid blue; */
 }
 
-#rdr2-img{
- width: 100%;
- height: 100%;
+#rdr2-img {
+  width: 100%;
+  height: 100%;
 }
 
-#gta-img{
- width: 100%;
- height: 100%;
+#gta-img {
+  width: 100%;
+  height: 100%;
 }
 
-#img-re2{
- width: 100%;
- height: 100%;
-}
 /*  content 1 end */
 
-
 /*  content2 start */
-.title-div{
+.title-div {
   margin-left: 10%;
 }
 
-.min-newsdiv{
+.min-newsdiv {
   height: 100%;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 10%;
 }
 
-.news-img-div{
+.news-img-div {
   margin: 0 auto;
   margin-top: 5%;
   width: 90%;
@@ -144,19 +133,17 @@ margin-top: 30%;
   justify-content: space-around;
 }
 
-.news-img{
+.news-img {
   width: 25%;
   height: 100%;
- 
 }
 
-.news-img img{
+.news-img img {
   width: 100%;
   height: 100%;
- 
 }
 
-.mid-section-div{
+.mid-section-div {
   height: 100%;
   background: url("../Images/5HHCJ66SLJEODI6PHQ7LW2GYL4.jpg");
   width: 85%;
@@ -164,143 +151,199 @@ margin-top: 30%;
   margin: 0 auto;
 }
 
-.mid-section-text2 h1{
+.mid-section-text1 h1 {
+  font-size: 420%;
+  margin-left: 7%;
+}
+
+.mid-section-text2 h6 {
   font-size: 100%;
+  margin-left: 13%;
 }
 
 .mid-section-text3 {
   margin-top: 35%;
- font-size: x-large;
+  font-size: xx-large;
+  margin-left: 13%;
+  font-weight: 900;
 }
 
-.mid-section-text3 h1{
+.mid-section-text3 h1 {
   font-size: 100%;
 }
 /*  content 2 end */
 
-
 /*  content 3 start */
 
-.released-games{
+.released-games {
   width: 90%;
   margin: 0 auto;
   height: 100%;
 }
 
-.like-games-tittle{
+.like-games-tittle {
   margin-left: 5%;
 }
 
-
-.released-games h3{
+.released-games h3 {
   color: rgb(112, 223, 155);
   font-size: xx-large;
 }
 
-.col-4 img{
+.col-4 img {
   width: 70%;
   height: 100%;
 }
 
-
 /* content 3 end */
-
-
-
 
 /*------------------------------------------------------   section end -----------------------------------------------------------------------------------------------------*/
 
 /*---------------------------------------------------------- footer css start-----------------------------------------------------------------------------------------------------------*/
-.back-div{
-width: 100%;
-height: 100%;
-background-color: darkgray;
-}
-
-.back-div a{
-  text-decoration: none;
-}
-  
-
-.back-div i{
-  margin-left: 50%;
-}
-  
-
-.backup-div{
+.back-div {
   width: 100%;
   height: 100%;
-   justify-content: center;
-   align-items: center;
-   display: flex;
+  background-color: darkgray;
 }
 
-.backup-div h1{
+.back-div a {
+  text-decoration: none;
+}
+
+.back-div i {
+  margin-left: 50%;
+}
+
+.backup-div {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.backup-div h1 {
   font-size: x-large;
 }
 
-#help-div a{
+#help-div a {
   text-decoration: none;
 }
 
-#footer-logo-div{
+#footer-logo-div {
   justify-content: space-around;
   font-size: xx-large;
 }
 
-/* --------------------------------------------------footer conten2 -------------------------------------------------------*/
-
+/* --------------------------------------------------footer content2 -------------------------------------------------------*/
 
 /*---------------------------------------------------------foter css end ------------------------------------------------------------------------------------------------------------------*/
 
 
 
 
-                            /*---------------------------NEWS CSS START--------------------*/
+                                   /*---------------------------NEWS CSS START--------------------*/
 /*--------------------------------------------------------------NEWS CSS ---------------------------------------------------------------------------------------------------*/
-                            /*--------------------------NEWS CSS START -----------------------*/
+                                 /*--------------------------NEWS CSS START -----------------------*/
 
-.my-container2{
+.my-container-2 {
   width: 100%;
   height: 100%;
   background-color: aquamarine;
-   background: url(../Images/purple-gaming-nepi2tnxp6g0mvz9.jpg);
+  background: url(../Images/nightlife-momentum-hc-3840x2400.jpg);
 }
 
-.Main-news-div{
-  width: 60%;
-  height: 100%;
+.Main-news-div {
+  margin-top: 10%;
+  width: 70%;
+  height: 80%;
   margin: 0 auto;
-  border: 3px solid blue;
+  border: 3px solid transparent;
 }
 
-.main-news-div{
+.main-news-div {
   width: 100%;
-  height: 10%;
+  height: 100%;
   background-color: aliceblue;
   margin-bottom: 5%;
-  border: 2px solid violet;
+  display: flex;
 }
 
-.main-news-img-div{
+.news-text-div {
+  width: 40%;
   height: 100%;
-  width: 35%;
-  border: 2px solid violet;
+  margin-left: 10%;
 }
-.main-news-img-div img{
+
+.news-text-div h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.news-text-div p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-news-img-div {
+  height: 100%;
+  width: 40%;
+}
+.main-news-img-div img {
   height: 100%;
   width: 100%;
-  
 }
 
-
-
-
-
-                          /*--------------------------- NEWS CSS END--------------------*/
+                                 /*--------------------------- NEWS CSS END--------------------*/
 /*-------------------------------------------------------------- NEWS CSS ---------------------------------------------------------------------------------------------------*/
-                            /*--------------------------NEWS CSS END -----------------------*/
+                                   /*--------------------------NEWS CSS END -----------------------*/
 
 
 
-                            
+
+
+
+
+                                  /*---------------------------CONTACT CSS START--------------------*/
+/*--------------------------------------------------------------CONTACT CSS ---------------------------------------------------------------------------------------------------*/
+                                  /*--------------------------CONTACT CSS START -----------------------*/
+.my-container-3 {
+  width: 100%;
+  height: 100%;
+  background: url(../Images/nightlife-momentum-hc-3840x2400.jpg);
+}
+
+.main-contact-div {
+  width: 70%;
+  height: 100%;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+
+.contact-map-div {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  margin-top: 7%;
+}
+
+.contact-information {
+  width: 50%;
+  height: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.contact-information h3 {
+  font-size: large;
+  font-weight: 900;
+}
+
+.main-contact-title-div {
+  width: 50%;
+  height: 10%;
+  margin: 0 auto;
+}
+
+                               /*---------------------------CONTACT CSS START--------------------*/
+/*--------------------------------------------------------------CONTACT CSS ---------------------------------------------------------------------------------------------------*/
+                              /*--------------------------CONTACT CSS START -----------------------*/
