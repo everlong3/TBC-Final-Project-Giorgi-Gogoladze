@@ -151,7 +151,7 @@ a{
 
 
 @media  screen and (min-width:1px ) and (max-Width:500px){ 
-	.help-div1 h3, .help-div2 h3{
-	     font-size: 1%;
-	}
+	 #help-div{
+        flex-wrap: wrap;
+	 }
 }

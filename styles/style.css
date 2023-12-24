@@ -279,6 +279,14 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+#title-col h1{
+  width: 100%;
+  font-style:oblique;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #title-col p{
   font-size: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -288,14 +296,13 @@
   width: 45%;
   height: 100%;
   display: flex;
+  justify-content: space-around;
 }
 
 
 .help-div1,.help-div2{
   width: 10%;
   height: 100%;
-  flex-wrap: nowrap;
-  margin-left: 30%;
 }
 
 #help-div a {
@@ -304,7 +311,7 @@
 
 #help-div h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: x-large;
+  font-size: 100%;
   color: beige;
 }
 
