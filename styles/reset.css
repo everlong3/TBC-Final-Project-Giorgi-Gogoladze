@@ -155,3 +155,13 @@ a{
         flex-wrap: wrap;
 	 }
 }
+
+@media screen  and (max-width:1000px){
+	.contact-information-min-div{
+		flex-wrap: wrap;
+	}
+
+	#contact-information-min-div{
+	 padding-bottom: 100%;
+	}
+}
